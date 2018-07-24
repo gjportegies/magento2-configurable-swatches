@@ -1,0 +1,25 @@
+{
+    "name": "studioraz/magento2-configurable-swatches",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/framework": "101.0.*|100.1.*"
+    },
+    "suggest": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SR\\ConfigurableSwatches\\": ""
+        }
+    },
+    "support": {
+        "email": "support@studioraz.co.il",
+        "wiki": "http://docs.studioraz.co.il"
+    }
+}
